@@ -65,7 +65,7 @@ const Input: React.RefForwardingComponent<InputRef, InputProps> = (
     setIsFilled(!!inputValueRef.current.value);
   }, []);
   return (
-    <Container isFocused={isFocused}>
+    <Container isFocused={isFocused} hasError={error}>
       <Icon
         name={icon}
         size={20}
