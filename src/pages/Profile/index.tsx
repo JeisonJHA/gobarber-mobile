@@ -228,7 +228,7 @@ const Profile: React.FC = () => {
               />
 
               <Button onPress={() => formRef.current?.submitForm()}>
-                Confirmar alterções
+                Confirmar alterações
               </Button>
             </Form>
           </Container>
